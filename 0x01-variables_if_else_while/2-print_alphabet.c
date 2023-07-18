@@ -6,14 +6,17 @@
  *
  * Return: Always 0 (success)
 */
+
 int main(void)
 {
-char ch = 'a';
-while (ch <= 'z')
-{
-putchar(ch);
-c++;
-}
-putchar('\n');
-return (0);
+	char ch = 'a';
+
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		c++;
+	}
+	putchar('\n');
+
+	return (0);
 }
